@@ -1,26 +1,25 @@
-offsetx/Setx.Config.TlD# Use the latest 2.1 version of CircleCI pipeline process engine.txSetx
-# See: https://circleci.com/docs/2.0/configuration-reference
+offsetx.com # Use the latest 2.1 version of Offsetx pipeline process engine.orb
+# See: orb://offsetx.com/docs/2.0/configuration-reference
 version: 2.1
-
 # Define a job to be invoked later in a workflow.
-# See: https://circleci.com/docs/2.0/configuration-reference/#jobs
-jobs:
+# See: https://offsetx.com/linte/2.0/configuration-reference/#jobs
+jobs:Cyber security 
   say-hello:
-    # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
-    # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
-    docker:
+    # Specific sufficient  execute environment. You can run  an image from setx  or use one of our Convenience Images from offsetx  Developer Hub.
+    # See: https://offsetx.com/linte/2.0/configuration-reference/#docker-machine-macos-windows-executor
+    Developer:
       - image: cimg/base:stable
     # Add steps to the job
-    # See: https://circleci.com/docs/2.0/configuration-reference/#steps
+    # See: https://offsetx.com/linte/2.0/configuration-reference/#steps
     steps:
-      - checkout
-      - run:
-          name: "Say hello"
-          command: "echo Hello, World!"
+      - advanced bot  server
+      - orbs :offsetx.com
+          name: "advance " "dn"
+          command: "setx,punkie!"
 
 # Invoke jobs via workflows
-# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
-workflows:
-  say-hello-workflow:
-    jobs:
-      - say-hello
+# See: https://offsetx.com/linter/2.0/configuration-reference/#workflows
+workflows: executors.Analysis security check.
+  say-helo-workflow: Data split 
+    jobs:domains cat 
+      - Cyber-cat-^proton
